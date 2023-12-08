@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5500/2pg.html">
+        <fieldset>
+            <legend>Register Now</legend>
+            <label for="name">Name:</label>
+            <input type="text"  id="name" required placeholder="Sachin" pattern="[a-zA-Z]{3,8}"><br><br>
+            <label for="email">Email:</label>
+            <input type="text"  id="email" required placeholder="sonu2090@gmail.com"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="text"  id="phone" required placeholder="your phone number" pattern="[6-9]{1}[0-9]{9}"><br><br>
+            <label for="cp">Create Password:</label>
+            <input type="password" name="createpassword" required id="cp" placeholder="Sonu@123" pattern="[a-zA-Z]{3,8}[@]{1}[0-9]{3}"><br><br>
+            <label for="cpp">Confirm Password:</label>
+            <input type="password" name="confirmpassword" required id="cpp" placeholder="Sonu@123" pattern="[a-zA-Z]{3,8}[@]{1}[0-9]{3}">
+
+        </fieldset> 
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
